@@ -1,5 +1,5 @@
 # neopixelSWD
-Software driver for controlling NeoPixels in ChibiOS. Tested on STM32F407.
+Software (bit-banging) driver for controlling NeoPixels in ChibiOS. Tested on STM32F407. Uses chSysLock while writing to the neopixels.
 
 Used in a university project with a miniature car, where we had one 8 pixel strip in the front and another in the rear, with each pixel corresponding to a light such as brake light etc.
 
