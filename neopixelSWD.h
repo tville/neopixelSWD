@@ -1,5 +1,5 @@
 /** @file	neopixelSWD.c
- * 	@brief	Software driver for WS2812 neooixel in ChibiOS.
+ * @brief	Software driver for WS2812 neooixel in ChibiOS.
  *
  *  Uses software bitbanging. Usage example:
  *
@@ -25,7 +25,7 @@
  * 	an INTEGER ARRAY affectedLeds and an INTEGER ARRAYSIZE affectedLedCount.
  *
  * 	TODO:
- * 	Clean up LED driver and put it on github, for example, define the timings as
+ * 	Clean up LED driver and make it a bit more generic, for example, define the timings as
  * 	macros relative to the frequency - IFNDEF FREQUENCY_MHZ DEFINE FREQUENCY_MHZ
  * 	168 should allow anyone to define another frequency.
  * 	OSC_TIME = 1 000 000 000 / (double)(FREQUENCY_MHZ * 000 000) = 5.95.
