@@ -1,5 +1,9 @@
 /** @file	main.c
- * Exampe file for how to use the neopixelSWD software driver.
+ * Exampe file for how to use the neopixelSWD software driver. The other files in this folder are from the
+ * ChibiOS EXT example for STM32F4xx.
+ * 
+ * It should be possible to use the driver on other boards, but the timings in the driver header file may 
+ * need to be updated.
  */
 
 
